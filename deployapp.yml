@@ -1,0 +1,9 @@
+apiVersion: platform.confluent.io/v1beta1
+project: default
+source:
+  repoURL: 'https://github.com/vkrao02/argocd.git'
+  path: confluent_playground
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: confluent

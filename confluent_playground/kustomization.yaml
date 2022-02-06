@@ -1,5 +1,5 @@
 {
-	"confluent_playground": [
+	"resources": [
 		"zookeeper.yaml",
 		"kafka.yaml",
 		"schemaregistry.yaml",
